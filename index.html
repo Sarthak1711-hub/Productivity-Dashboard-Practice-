@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Productivity Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <h2 class="logo">My Board</h2>
+        <ul class="menu">
+          <li id="nav-dashboard">Dashboard</li>
+          <li id="nav-tasks">Tasks</li>
+          <li id="nav-expenses">Expenses</li>
+        </ul>
+      </aside>
+
+      <!-- Main Content -->
+      <main class="main">
+        <!-- Header -->
+        <div class="header">
+          <h1>Dashboard</h1>
+          <p id="date">Today</p>
+        </div>
+
+        <!-- Cards Row -->
+        <div class="cards">
+          <div class="card" id="card-tasks">
+            <h3>Tasks</h3>
+            <p id="taskCount">0 pending</p>
+          </div>
+
+          <div class="card" id="card-expenses">
+            <h3>Expenses</h3>
+            <p id="value">₹0</p>
+          </div>
+        </div>
+
+        <!-- Main Sections -->
+        <div class="sections">
+          <section class="box" id="section-tasks">
+            <h3>Task List</h3>
+            <ul class="task-list" id="task-list">
+              <li>Learn JavaScript</li>
+              <li>Build a project</li>
+              <li>Read a book</li>
+              <li>Clean room</li>
+            </ul>
+            <button class="secondary" id="taskbtn">Add Task</button>
+            <button class="danger" id="deltask">Delete</button>
+            <input type="text" id="taskInput" placeholder="Enter a task" />
+          </section>
+
+          <section class="box" id="section-expenses">
+            <h3>Expense Tracker</h3>
+            <ul class="expense-list" id="expense-list">
+              <li>Coffee - ₹150</li>
+              <li>Books - ₹500</li>
+              <li>Games - ₹1500</li>
+              <li>Phone case - ₹900</li>
+            </ul>
+            <button class="secondary" id="expensebtn">Add Expense</button>
+            <button class="danger" id="delexpense">Delete</button>
+            <input type="text" id="expenseInput" placeholder="Enter the expense" />
+          </section>
+        </div>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
