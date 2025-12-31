@@ -24,9 +24,8 @@ This project helps users manage tasks and expenses while practicing core front-e
 
 🧭 Dashboard Navigation
 
-Switch between **Dashboard**, **Tasks**, and **Expenses**.
-
-Clean UI with section visibility control.
+- Switch between **Dashboard**, **Tasks**, and **Expenses**.
+- Clean UI with section visibility control.
 
 🕒 Date Display
 
