@@ -77,19 +77,46 @@ function updateExpenseTotal() {
 }
 let expensebtn = document.getElementById("expensebtn");
 expensebtn.addEventListener("click", () => {
-    const expense = expenseInput.value.trim(); 
-    if (!expense) return;
-  
-    const li = document.createElement("li");
-    li.textContent = expense;
-  
-    expenseList.appendChild(li);
-    expenseInput.value = "";
-  
-    updateExpenseTotal();
-  });
-  
+  const expense = expenseInput.value.trim();
+  if (!expense) return;
+
+  const li = document.createElement("li");
+  li.textContent = expense;
+
+  expenseList.appendChild(li);
+  expenseInput.value = "";
+
+  updateExpenseTotal();
+});
 
 // Call once on load
 updateExpenseTotal();
 updateTaskCount();
+
+expensebtn.addEventListener("click", () => {
+  const expense = expenseInput.value.trim();
+  if (!expense) return;
+
+  const li = document.createElement("li");
+  li.textContent = expense;
+
+  expenseList.appendChild(li);
+  expenseInput.value = "";
+});
+
+const delexpensebtn = document.getElementById("delexpense");
+delexpensebtn.addEventListener("click", () => {
+  if (expenseList.children.length > 0) {
+    expenseList.lastElementChild.remove();
+    updateExpenseTotal();
+  }
+});
+
+const delTaskBtn = document.getElementById("deltask");
+
+delTaskBtn.addEventListener("click", () => {
+  if (taskList.children.length > 0) {
+    taskList.lastElementChild.remove();
+    updateTaskCount();
+  }
+});
