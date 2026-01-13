@@ -1,17 +1,17 @@
-📊 Productivity Dashboard
+# 📊 Productivity Dashboard
 
 A clean and responsive Productivity Dashboard built using HTML, CSS, and Vanilla JavaScript.
 This project helps users manage tasks and expenses while practicing core front-end development concepts like DOM manipulation, event handling, and dynamic UI updates.
 
-🚀 Features
+# 🚀 Features
 
-✅ Task Management
+## ✅ Task Management
 
 - Add new tasks
 - View all tasks in a list
 - Dynamic task count updates automatically
 
-💰 Expense Tracker
+## 💰 Expense Tracker
 
 - Automatically calculates total expenses
 - Updates values dynamically
@@ -22,16 +22,16 @@ This project helps users manage tasks and expenses while practicing core front-e
 - Offers a summary view of expenses over time
 - Integrates with task management for holistic productivity
 
-🧭 Dashboard Navigation
+## 🧭 Dashboard Navigation
 
 - Switch between **Dashboard**, **Tasks**, and **Expenses**.
 - Clean UI with section visibility control.
 
-🕒 Date Display
+## 🕒 Date Display
 
 Shows current date dynamically on page load
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 
 - **HTML5** – Structure
 - **CSS3** – Styling & Layout
@@ -39,14 +39,14 @@ Shows current date dynamically on page load
 
 No frameworks. No libraries. Pure fundamentals.
 
-📁 Project Structure
+## 📁 Project Structure
 project-folder/
 │
 ├── index.html
 ├── style.css
 └── script.js
 
-🧠 Concepts Practiced
+## 🧠 Concepts Practiced
 
 - DOM Manipulation
 - Event Handling
@@ -57,7 +57,7 @@ project-folder/
 - String & Number handling
 - Basic UI state management
 
-⚙️ How to Run the Project
+## ⚙️ How to Run the Project
 
 ## Getting Started
 
