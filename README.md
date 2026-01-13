@@ -65,8 +65,8 @@ project-folder/
 
 No setup required.
 
-# 👨‍💻 Author
+### 👨‍💻 Author
 
-# Sarthak Mandal
+### Sarthak Mandal
 
 Full Stack Developer (Learning Phase)
