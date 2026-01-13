@@ -59,16 +59,14 @@ project-folder/
 
 ## ⚙️ How to Run the Project
 
-## Getting Started
-
 1. Download or clone the repository.
 2. Open `index.html` in your browser.
 3. Start adding tasks and expenses.
 
 No setup required.
 
-👨‍💻 Author
+# 👨‍💻 Author
 
-Sarthak Mandal
+# Sarthak Mandal
 
 Full Stack Developer (Learning Phase)
